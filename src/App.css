@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  
+  /* overflow-x: hidden; */
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+
+}
+
+.Mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height: 90vh;
+}
+
+.Mobile #res-logo {
+  margin-bottom: 10px;
+  height: 50vw;
+}
+
+.Mobile h2 {
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+}
